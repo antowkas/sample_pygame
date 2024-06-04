@@ -1,6 +1,6 @@
 import pygame
 
-from models.window2 import Window, MyWindow
+from models.window import Window, MyWindow
 
 pygame.font.init()
 pygame.init()
