@@ -4,9 +4,9 @@ from .game import GameObject
 
 
 class Background(GameObject):
-    def __init__(self, *groups, size=(0, 0), coord=(0, 0), color_fill=Color(0, 0, 0)):
+    def __init__(self, *groups, size=(0, 0), pos=(0, 0), color_fill=Color(0, 0, 0)):
         self.color_fill = color_fill
-        super().__init__(*groups, size=size, coord=coord)
+        super().__init__(*groups, size=size, pos=pos)
 
     def image_update(self):
         self.image.fill(self.color_fill)
