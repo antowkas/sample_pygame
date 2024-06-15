@@ -14,8 +14,6 @@ running = True
 FPS = 60
 
 all_sprites = pygame.sprite.Group()
-# Background(all_sprites, size=(100, 100), color_fill="white")
-# MyWindow(all_sprites, size=(500, 500), debug=True)
 MyWindow(all_sprites, size=(300, 300), pos=(200, 100), debug=True)
 
 while running:
